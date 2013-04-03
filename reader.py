@@ -27,13 +27,15 @@ for part in parts:
     description = part.getElementsByTagName('description')[0].firstChild.wholeText.strip()
     description = re.sub("<[^>]*>", "", description)
     description = description[:-10]
-    # display info
+    # append info to pdata list
     pdata.append({"description":description, "link":link, "title":title})
 ##  print("\n".join([title, link, description, ""]))
 ##  print(pdata)
 ##  print(type(pdata))
 
+# convert python to json
 encoded = json.dumps(pdata, sort_keys=True, indent=2)
+# write to json file
 outfile = open("feed.json", encoding="utf-8", mode="a")
 outfile.write(encoded)
 outfile.close()
