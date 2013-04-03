@@ -1,0 +1,62 @@
+body {
+	background: #7e86ba; /* Old browsers */
+	background: -moz-linear-gradient(left,  #7e86ba 1%, #242093 50%, #7e86ba 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(1%,#7e86ba), color-stop(50%,#242093), color-stop(100%,#7e86ba)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #7e86ba 1%,#242093 50%,#7e86ba 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #7e86ba 1%,#242093 50%,#7e86ba 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #7e86ba 1%,#242093 50%,#7e86ba 100%); /* IE10+ */
+	background: linear-gradient(to right,  #7e86ba 1%,#242093 50%,#7e86ba 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7e86ba', endColorstr='#7e86ba',GradientType=1 ); /* IE6-9 */
+}
+
+h1 {
+	font-family: 'Gabriela', Helvetica, sans-serif;
+	color: white;
+	background: #ffadad; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffadad 0%, #ff0c0c 48%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffadad), color-stop(48%,#ff0c0c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffadad 0%,#ff0c0c 48%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffadad 0%,#ff0c0c 48%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffadad 0%,#ff0c0c 48%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffadad 0%,#ff0c0c 48%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffadad', endColorstr='#ff0c0c',GradientType=0 ); /* IE6-9 */
+	box-shadow: 1px 1px 10px 5px rgba(221,221,221,1);
+	text-shadow: 0 2px 5px rgba(0,0,0,1);
+	text-align: center;
+}
+
+#content {
+	background-color: rgba(255,255,255,0.8);
+	position: relative;
+	width: 80%;
+	-webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+	margin: 0 auto;
+	box-shadow: 1px 1px 10px 5px rgba(221,221,221,1);
+	display: none;
+}
+
+article {
+	padding: 2% 5%;
+}
+
+section {
+	margin: 5% 0;
+}
+
+a{
+	font: 1.5em bold Helvetica, sans-serif;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(0,0,0,1);
+	text-decoration: none;
+	color: #242093;
+}
+
+a:hover{
+	opacity: 0.7;
+}
+
+a:active{
+	color: blue;
+}
